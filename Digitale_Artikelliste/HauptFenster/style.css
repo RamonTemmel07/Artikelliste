@@ -1,0 +1,207 @@
+html {
+    height: 100%;
+    
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    height: 120%;
+    position: relative;
+}
+#Struktur_DIVHomepage{
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 100%;
+}
+
+#Div_Content{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
+
+#SuchfeldKontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   
+
+}
+#Suchfeld{
+    position: relative;
+    width: 96%;
+    font-size: 48px;
+    height: 80px;
+    border-radius: 16px;
+    border-style: solid;
+    box-shadow: 0 0px 10px rgb(192, 192, 192);
+    box-shadow: inset 3px 3px 3px rgb(153, 153, 153);
+    background-color: rgb(221, 221, 221);
+    }
+
+#ErgebnisKontainer{
+    display: grid;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.568);
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 85%;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: rgb(177, 177, 177);
+    box-shadow: inset 5px 5px 5px rgba(199, 199, 199, 0.336);
+    margin-left: 8px;
+}
+
+#Header_ErgebnisKontainer{
+    
+}
+
+#Text_ErgbnisLEisteÜberschrift{
+font-size: 48px;
+padding-left: 3%;        
+position: relative;
+top: -3%;
+margin-bottom: 2px;
+color: gray;
+}
+
+
+#Center_ErgebnisKontainerMedikamente{
+    /*Hier kommt code wie die elemente (Produkt buttons ) angeordnet sind*/
+}
+#MehrAnzeigenButton{
+    z-index: 3;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    width: 33%;
+    height: 60px;
+    background-color: #00c1d5;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    color: white;
+    font-size: 32px;
+    box-shadow: 0 0px 15px white;
+  
+}
+
+
+
+/* NAvigationsbereich */
+
+#Div_Navigation{
+    position: relative;
+    top: 15%;
+    background-color: #00c0d59d;
+    height: 90%;
+    margin-right: 4px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0px 10px white;    
+} 
+#NaviElement_Div_Eins{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.575);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NAvigationButtonLogIn{
+    border-radius: 8px;
+    width: 90%;
+    height: 60px;
+    background-image: url("/Digitale_Artikelliste/SRC_Pictures/pfeilLogIN.png") ;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00c1d5;
+
+}
+
+#NaviElement_Div_Zwei{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.575);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NAvigationButtonHinzufügen{
+    border-radius: 8px;
+    width: 90%;
+    height: 60px;
+    background-image: url("/Digitale_Artikelliste/SRC_Pictures/2339248.png") ;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00c1d5;
+}
+
+
+
+
+#NaviElement_Div_Drei{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.575);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NAvigationButtonTabelle{
+    border-radius: 8px;
+    border-color: #00c1d5;
+    width: 90%;
+    height: 60px;
+    background-image: url("/Digitale_Artikelliste/SRC_Pictures/OIP.jpg") ;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00c1d5;
+}
+
+
+
+
+
+
+
